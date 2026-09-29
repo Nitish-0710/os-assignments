@@ -11,9 +11,13 @@ The repository also includes a set of **AI-enabled Operating Systems assignments
 ## Course
 
 **Course:** Operating Systems
+
 **Branch:** Computer Science & Engineering (Artificial Intelligence)
+
 **Academic Year:** 2026–27
+
 **Institute:** Vishwakarma Institute of Technology, Pune
+
 
 ---
 
@@ -23,7 +27,7 @@ The repository also includes a set of **AI-enabled Operating Systems assignments
 | --- | -------------------------------------------------------- | ------------ |
 | 1   | Shell Programming – Student Database using Shell and AWK | ✅ Completed |
 | 2   | Process Control                                          | ✅ Completed |
-| 3   | CPU Scheduling                                           | ⬜ Pending   |
+| 3   | CPU Scheduling                                           | ✅ Completed |
 | 4   | Multithreaded Programming using Pthreads                 | ⬜ Pending   |
 | 5   | Inter-Process Communication                              | ⬜ Pending   |
 | 6   | Deadlock Handling – Banker's Algorithm                   | ⬜ Pending   |
@@ -61,7 +65,7 @@ Assignment 1/
 └── student.txt
 ```
 
-Detailed implementation and execution instructions are available in the `README.md` inside the assignment directory.
+Detailed implementation and execution instructions are available in the [README.md](./Assignment%201/README.md) inside the assignment directory.
 
 ---
 
@@ -71,15 +75,29 @@ Implement programs demonstrating process creation and process management using L
 
 ### Programs
 
-- Process Creation using `fork()`
-- Zombie Process
-- Orphan Process
-- Generate Process Tree with Multiple Levels
-- Program Execution using `exec()`
+* Process Creation using `fork()`
+* Zombie Process
+* Orphan Process
+* Generate Process Tree with Multiple Levels
+* Program Execution using `exec()`
 
 ### Status
 
-⬜ **Pending**
+✅ Completed
+
+### Directory
+
+```text
+Assignment 2/
+├── README.md
+├── fork_process.c
+├── zombie_process.c
+├── orphan_process.c
+├── process_tree.c
+└── exec_process.c
+```
+
+Detailed implementation and execution instructions are available in the [README.md](./Assignment%202/README.md) inside the assignment directory.
 
 ---
 
@@ -96,7 +114,17 @@ Write a menu-driven program to simulate the behavior of different CPU scheduling
 
 ### Status
 
-⬜ **Pending**
+✅ Completed
+
+### Directory
+
+```text
+Assignment 3/
+├── README.md
+└── cpu_scheduling.cpp
+```
+
+Detailed implementation and execution instructions are available in the [README.md](./Assignment%203/README.md) inside the assignment directory.
 
 ---
 
@@ -491,8 +519,6 @@ Through these assignments, the following concepts will be explored:
 
 Current progress:
 
-**1 / 8 Core OS Assignments Completed**
+**3 / 8 Core OS Assignments Completed**
 
-The first assignment, **Shell Programming – Student Database using Shell and AWK**, has been completed.
-
-The remaining assignments will be added to this repository progressively as they are implemented and tested.
+Assignments 1, 2, and 3 have been completed. The remaining assignments will be added to this repository progressively as they are implemented and tested.
