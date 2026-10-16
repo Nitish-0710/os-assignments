@@ -29,7 +29,7 @@ The repository also includes a set of **AI-enabled Operating Systems assignments
 | 3   | CPU Scheduling                                           | ✅ Completed |
 | 4   | Multithreaded Programming using Pthreads                 | ✅ Completed |
 | 5   | Inter-Process Communication                              | ✅ Completed |
-| 6   | Deadlock Handling – Banker's Algorithm                   | ⬜ Pending   |
+| 6   | Deadlock Handling – Banker's Algorithm                   | ✅ Completed |
 | 7   | Paging and Virtual Memory                                | ⬜ Pending   |
 | 8   | Memory Management Simulator                              | ⬜ Pending   |
 
@@ -267,7 +267,17 @@ The program should determine whether the system is in a safe state and whether a
 
 ### Status
 
-⬜ **Pending**
+✅ **Completed**
+
+### Directory
+
+```text
+Assignment 6/
+├── bankers_algorithm.c
+└── README.md
+```
+
+Detailed implementation and execution instructions are available in the [README.md](./Assignment%206/README.md) inside the assignment directory.
 
 ---
 
@@ -540,6 +550,6 @@ Through these assignments, the following concepts will be explored:
 
 Current progress:
 
-**5 / 8 Core OS Assignments Completed**
+**6 / 8 Core OS Assignments Completed**
 
-Assignments 1, 2, 3, 4 and 5 have been completed. The remaining assignments will be added to this repository progressively as they are implemented and tested.
+Assignments 1, 2, 3, 4, 5 and 6 have been completed. The remaining assignments will be added to this repository progressively as they are implemented and tested.
